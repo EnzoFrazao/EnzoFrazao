@@ -41,7 +41,7 @@
 ###
 
 <div align="left">
-  <a href="www.linkedin.com/in/enzofrazaovencio" target="_blank">
+  <a href="www.linkedin.com/in/enzofrazaovencio/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
   <a href="https://www.instagram.com/enzo_frazao/" target="_blank">
