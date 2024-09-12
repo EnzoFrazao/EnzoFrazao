@@ -11,9 +11,9 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=EnzoFrazao&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false&order=1" height="180" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=EnzoFrazao&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=false&order=2" height="180" alt="languages graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EnzoFrazao&radius=16&theme=one-dark&area=true&order=5&bg_color=181818&title_color=FFFFFF&point=145967%20&line=ecf0e7%20&area_color=d3f6f3%20" height="276" alt="activity-graph graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=EnzoFrazao&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=EnzoFrazao&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=false&order=2" height="150" alt="languages graph"  />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EnzoFrazao&radius=16&theme=one-dark&area=true&order=5&bg_color=181818&title_color=FFFFFF&point=145967%20&line=ecf0e7%20&area_color=d3f6f3%20" height="300" alt="activity-graph graph"  />
 </div>
 
 ###
