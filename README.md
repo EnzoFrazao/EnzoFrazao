@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">-Back end developer<br>-Currently studying Java</p>
+<p align="left">-Back end developer<br>-Currently studying Java, SQL and Spring Boot</p>
 
 ###
 
