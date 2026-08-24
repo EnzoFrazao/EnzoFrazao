@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 212" width="850" height="212" role="img" aria-labelledby="t2 d2">
+  <title id="t2">SafeWork — detection pipeline</title>
+  <desc id="d2">Video in, report out. FFmpeg normalises the footage, Modal runs YOLO11 on serverless GPU, FastAPI receives the signed webhook, PostgreSQL stores the events and Resend delivers the report. n8n brackets the stages from the GPU batch through to delivery; Cloudflare R2 brackets ingest and detection, holding the media on both sides.</desc>
+
+  <defs><clipPath id="frame2"><rect width="850" height="212" rx="14"/></clipPath></defs>
+  <g clip-path="url(#frame2)"><rect width="850" height="212" fill="#0a0b10"/></g>
+  <rect x=".5" y=".5" width="849" height="211" rx="14" fill="none" stroke="#1b2431"/>
+  <g stroke="#243044" stroke-width="1" fill="none">
+    <path d="M18 38V18h20"/><path d="M832 38V18h-20"/><path d="M18 174v20h20"/><path d="M832 174v20h-20"/>
+  </g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <text x="44" y="30" font-size="13" fill="#8b5cf6" letter-spacing="2">SAFEWORK · PIPELINE</text>
+    <text x="806" y="30" text-anchor="end" font-size="13" fill="#4a5768" letter-spacing="1.4">VIDEO IN · REPORT OUT</text>
+  </g>
+
+  <!-- The batch rides a track drawn BEFORE the boxes, so the opaque boxes occlude it and it only
+       surfaces in the gaps. Travel is clamped to the flat edges of the first and last box so it
+       never peeks through a rounded corner. cx is also set statically: see the SMIL trap in state.md. -->
+  <path d="M158 123H692" stroke="#1e2836" stroke-width="1"/>
+  <circle cx="172" cy="123" r="4" fill="#8b5cf6">
+    <animate attributeName="cx" values="158;692" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.06;.94;1" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Brackets land on the exact centres of the stages they touch: n8n fires the GPU batch and the
+       weekly report, R2 holds ppe-raw in and ppe-clips out. especificacoes_tecnicas.md 1.2. -->
+  <g fill="none" stroke="#8b5cf6" stroke-opacity=".5" stroke-width="1.2">
+    <path d="M244 90V78h505v12"/>
+    <path d="M101 156v12h143v-12"/>
+  </g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="21" fill="#8b5cf6" text-anchor="middle">
+    <text x="496" y="71">n8n</text>
+    <text x="172" y="189">Cloudflare R2</text>
+  </g>
+
+  <g fill="#0f1119" stroke="#1a222e">
+    <rect x="44" y="90" width="114" height="66" rx="12"/>
+    <rect x="187" y="90" width="114" height="66" rx="12"/>
+    <rect x="330" y="90" width="129" height="66" rx="12"/>
+    <rect x="488" y="90" width="172" height="66" rx="12"/>
+    <rect x="692" y="90" width="114" height="66" rx="12"/>
+  </g>
+  <g stroke="#33445a" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M169 117l6 6-6 6"/>
+    <path d="M312 117l6 6-6 6"/>
+    <path d="M470 117l6 6-6 6"/>
+    <path d="M673 117l6 6-6 6"/>
+  </g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="21" fill="#e2e8f0" text-anchor="middle">
+    <text x="101" y="130">FFmpeg</text>
+    <text x="394" y="130">FastAPI</text>
+    <text x="574" y="130">PostgreSQL</text>
+    <text x="749" y="130">Resend</text>
+    <text x="244" y="115">Modal</text><text x="244" y="143">YOLO11</text>
+  </g>
+</svg>
