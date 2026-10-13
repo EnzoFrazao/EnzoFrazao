@@ -76,6 +76,33 @@ Projetei e construí de ponta a ponta este primeiro atendimento da Ouvidoria sob
   <img src="assets/04-ouvidoria-stack.svg" width="100%" alt="MP/MA ombudsman workflow census, counted from the export: 88 functional nodes — 35 code, 21 httpRequest, 10 if, 9 switch, 7 redis, 2 webhook, plus 3 noOp and 1 respondToWebhook. All 35 code nodes are JavaScript and every one of the 21 httpRequest nodes calls the WhatsApp Cloud API on Graph v19.0. Stack: n8n, WhatsApp Cloud API, Redis, Docker and Chatwoot.">
 </div>
 
+## Public projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| [**KaizenDo · GUARÁ**](https://github.com/EnzoFrazao/KaizenDo) | Real-time positioning of rail-yard crews for Vale's KaizenDO challenge: ESP32 + GPS tags report to a Raspberry Pi, and the app recommends who reaches each work front fastest. [Live prototype](https://guaramonitora.netlify.app) | TypeScript, Next.js, ESP32, Raspberry Pi |
+| [**Vértice Consultoria**](https://github.com/EnzoFrazao/vertice-consultoria) | Landing page plus demo client and admin portals for a real-estate consultancy, in an npm-workspaces monorepo with the foundation of a Laravel API | TypeScript, React, Laravel |
+| [**Email triage with AI**](https://github.com/EnzoFrazao/triagem-emails-n8n-ia) | n8n workflow that classifies incoming email with LLaMA 3.3 (structured JSON output), logs it to Google Sheets and replies in the right tone | n8n, Groq, Gmail and Sheets APIs |
+| [**Construction diary (mobile)**](https://github.com/EnzoFrazao/undb-mobile) | Daily site reports with photos and three roles (owner, site manager, client); owner sign-off locks the report and keeps prior versions | React Native, Expo, Node.js |
+| [**ADS coursework**](https://github.com/EnzoFrazao/ads-2-semestre) | Semester track from Python and web fundamentals to a 13-screen mobile banking prototype | Python, JavaScript, React, TypeScript |
+| [**Java fundamentals**](https://github.com/EnzoFrazao/java-fundamentos) | My 2024 Java learning path in one place, from syntax to small OOP console systems | Java |
+
+<details>
+<summary>Ver em português</summary>
+
+<br>
+
+| Projeto | O que é |
+|---|---|
+| [**KaizenDo · GUARÁ**](https://github.com/EnzoFrazao/KaizenDo) | Posicionamento em tempo real das equipes do pátio ferroviário, para o desafio KaizenDO da Vale: etiquetas ESP32 + GPS enviam a posição a um Raspberry Pi, e o sistema recomenda quem chega mais rápido a cada frente. [Protótipo no ar](https://guaramonitora.netlify.app) |
+| [**Vértice Consultoria**](https://github.com/EnzoFrazao/vertice-consultoria) | Landing page e portais demonstrativos de cliente e de administração para uma consultoria imobiliária, num monorepo com npm workspaces e a fundação de uma API Laravel |
+| [**Triagem de e-mails com IA**](https://github.com/EnzoFrazao/triagem-emails-n8n-ia) | Workflow n8n que classifica e-mails com LLaMA 3.3 (saída em JSON estruturado), registra em planilha e responde no tom certo |
+| [**Diário de obra (mobile)**](https://github.com/EnzoFrazao/undb-mobile) | Relatórios diários de obra com fotos e três perfis (dono, responsável, cliente). A assinatura do dono bloqueia a edição e preserva as versões anteriores |
+| [**Entregas de ADS**](https://github.com/EnzoFrazao/ads-2-semestre) | Trilha do semestre, dos fundamentos de Python e web até um protótipo de banco digital com 13 telas |
+| [**Fundamentos de Java**](https://github.com/EnzoFrazao/java-fundamentos) | Minha trilha de estudos de Java de 2024 num só lugar, da sintaxe a pequenos sistemas de console com POO |
+
+</details>
+
 ## Let's talk
 
 <div align="center">
