@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 248" width="850" height="248" role="img" aria-labelledby="t4 d4">
   <title id="t4">MP/MA Ombudsman — workflow node census</title>
-  <desc id="d4">A census of the n8n workflow, counted from the export rather than estimated: 88 functional nodes — 35 code, 21 httpRequest, 10 if, 9 switch, 7 redis, 2 webhook, plus 3 noOp and 1 respondToWebhook. All 35 code nodes are JavaScript, and every one of the 21 httpRequest nodes calls the WhatsApp Cloud API on Graph v19.0. Stack: n8n, WhatsApp Cloud API, Redis, Docker and Chatwoot.</desc>
+  <desc id="d4">A census of the n8n workflow, counted from the export rather than estimated: 88 functional nodes — 35 code, 21 httpRequest, 10 if, 9 switch, 7 redis, 2 webhook, plus 3 noOp and 1 respondToWebhook. All 35 code nodes are JavaScript, and every one of the 21 httpRequest nodes calls the WhatsApp Cloud API on Graph v19.0. Stack: n8n, WhatsApp Cloud API and Redis.</desc>
 
   <defs><clipPath id="frame4"><rect width="850" height="248" rx="14"/></clipPath></defs>
   <g clip-path="url(#frame4)"><rect width="850" height="248" fill="#0a0b10"/></g>
@@ -63,5 +63,5 @@
     <text x="533" y="84">Graph v19.0</text>
   </g>
   <text x="806" y="200" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#4a5768">+ 3 noOp · 1 respondToWebhook</text>
-  <text x="44" y="226" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="21" fill="#e2e8f0">n8n · WhatsApp Cloud API · Redis · Docker · Chatwoot</text>
+  <text x="44" y="226" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="21" fill="#e2e8f0">n8n · WhatsApp Cloud API · Redis</text>
 </svg>
