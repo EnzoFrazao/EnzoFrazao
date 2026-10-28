@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 212" width="850" height="212" role="img" aria-labelledby="t2 d2">
   <title id="t2">SafeWork — detection pipeline</title>
-  <desc id="d2">Video in, report out. FFmpeg normalises the footage, Modal runs YOLO11 on serverless GPU, FastAPI receives the signed webhook, PostgreSQL stores the events and Resend delivers the report. n8n brackets the stages from the GPU batch through to delivery; Cloudflare R2 brackets ingest and detection, holding the media on both sides.</desc>
+  <desc id="d2">Video in, report out. FFmpeg normalises the footage, Modal runs YOLO11 on serverless GPU, FastAPI receives the signed webhook, PostgreSQL stores the events and SMTP e-mail delivers the report. n8n brackets the stages from the GPU batch through to delivery; Cloudflare R2 brackets ingest and detection, holding the media on both sides.</desc>
 
   <defs><clipPath id="frame2"><rect width="850" height="212" rx="14"/></clipPath></defs>
   <g clip-path="url(#frame2)"><rect width="850" height="212" fill="#0a0b10"/></g>
@@ -50,7 +50,7 @@
     <text x="101" y="130">FFmpeg</text>
     <text x="394" y="130">FastAPI</text>
     <text x="574" y="130">PostgreSQL</text>
-    <text x="749" y="130">Resend</text>
+    <text x="749" y="130">SMTP</text>
     <text x="244" y="115">Modal</text><text x="244" y="143">YOLO11</text>
   </g>
 </svg>

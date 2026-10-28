@@ -56,7 +56,7 @@ Como fundador e líder do projeto, construí o backend da plataforma que analisa
 </details>
 
 <div align="center">
-  <img src="assets/02-safework-stack.svg" width="100%" alt="SafeWork detection pipeline: FFmpeg normalises the footage, Modal runs YOLO11 on serverless GPU, FastAPI receives the signed webhook, PostgreSQL stores the events and Resend delivers the report. n8n spans the stages from the GPU batch through to delivery; Cloudflare R2 holds the media on both sides of detection.">
+  <img src="assets/02-safework-stack.svg" width="100%" alt="SafeWork detection pipeline: FFmpeg normalises the footage, Modal runs YOLO11 on serverless GPU, FastAPI receives the signed webhook, PostgreSQL stores the events and SMTP e-mail delivers the report. n8n spans the stages from the GPU batch through to delivery; Cloudflare R2 holds the media on both sides of detection.">
 </div>
 
 **WhatsApp Ombudsman Chatbot** — *Public Prosecutor's Office (MP/MA)* · `closed source`<br>
