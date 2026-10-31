@@ -80,6 +80,7 @@ Projetei e construí de ponta a ponta este primeiro atendimento da Ouvidoria sob
 
 | Project | What it is | Stack |
 |---|---|---|
+| [**Orders analyst with AI**](https://github.com/EnzoFrazao/analista-pedidos-ia) | Portuguese-language agent that answers business questions about a restaurant's orders with read-only SQL behind five safety layers, evaluated on the project's own 25 questions, with a Streamlit panel. Synthetic data, demo only. [Live panel](https://pedidoai.streamlit.app/) | Python, SQLite, Streamlit, tool calling |
 | [**KaizenDo · GUARÁ**](https://github.com/EnzoFrazao/KaizenDo) | Real-time positioning of rail-yard crews for Vale's KaizenDO challenge: ESP32 + GPS tags report to a Raspberry Pi, and the app recommends who reaches each work front fastest. [Demo video](https://github.com/EnzoFrazao/KaizenDo#demonstra%C3%A7%C3%A3o) | TypeScript, Next.js, ESP32, Raspberry Pi |
 | [**Vértice Consultoria**](https://github.com/EnzoFrazao/vertice-consultoria) | Landing page plus demo client and admin portals for a real-estate consultancy, in an npm-workspaces monorepo with the foundation of a Laravel API | TypeScript, React, Laravel |
 | [**Email triage with AI**](https://github.com/EnzoFrazao/triagem-emails-n8n-ia) | n8n workflow that classifies incoming email with LLaMA 3.3 (structured JSON output), logs it to Google Sheets and replies in the right tone | n8n, Groq, Gmail and Sheets APIs |
@@ -94,6 +95,7 @@ Projetei e construí de ponta a ponta este primeiro atendimento da Ouvidoria sob
 
 | Projeto | O que é |
 |---|---|
+| [**Analista de pedidos com IA**](https://github.com/EnzoFrazao/analista-pedidos-ia) | Agente em português que responde perguntas de negócio sobre os pedidos de um restaurante com SQL somente leitura em cinco camadas de segurança, avaliado nas 25 perguntas do próprio projeto, com painel Streamlit. Dados sintéticos, só demonstração. [Painel no ar](https://pedidoai.streamlit.app/) |
 | [**KaizenDo · GUARÁ**](https://github.com/EnzoFrazao/KaizenDo) | Posicionamento em tempo real das equipes do pátio ferroviário, para o desafio KaizenDO da Vale: etiquetas ESP32 + GPS enviam a posição a um Raspberry Pi, e o sistema recomenda quem chega mais rápido a cada frente. [Vídeo da demonstração](https://github.com/EnzoFrazao/KaizenDo#demonstra%C3%A7%C3%A3o) |
 | [**Vértice Consultoria**](https://github.com/EnzoFrazao/vertice-consultoria) | Landing page e portais demonstrativos de cliente e de administração para uma consultoria imobiliária, num monorepo com npm workspaces e a fundação de uma API Laravel |
 | [**Triagem de e-mails com IA**](https://github.com/EnzoFrazao/triagem-emails-n8n-ia) | Workflow n8n que classifica e-mails com LLaMA 3.3 (saída em JSON estruturado), registra em planilha e responde no tom certo |
